@@ -31,6 +31,7 @@ namespace CoffeeShop
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.sidePanel = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -47,7 +48,8 @@ namespace CoffeeShop
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.homeScreen1 = new CoffeeShop.HomeScreen();
             this.orderScreen1 = new CoffeeShop.OrderScreen();
-            this.sidePanel = new System.Windows.Forms.Panel();
+            this.deliveryScreen1 = new CoffeeShop.DeliveryScreen();
+            this.localizationScreen1 = new CoffeeShop.LocalizationScreen();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -67,6 +69,14 @@ namespace CoffeeShop
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(215, 492);
             this.panel1.TabIndex = 0;
+            // 
+            // sidePanel
+            // 
+            this.sidePanel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.sidePanel.Location = new System.Drawing.Point(1, 74);
+            this.sidePanel.Name = "sidePanel";
+            this.sidePanel.Size = new System.Drawing.Size(18, 62);
+            this.sidePanel.TabIndex = 9;
             // 
             // button5
             // 
@@ -97,6 +107,7 @@ namespace CoffeeShop
             this.button4.TabIndex = 6;
             this.button4.Text = "     Localization";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -112,6 +123,7 @@ namespace CoffeeShop
             this.button3.TabIndex = 5;
             this.button3.Text = "Delivery";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -229,6 +241,7 @@ namespace CoffeeShop
             this.button7.Size = new System.Drawing.Size(73, 56);
             this.button7.TabIndex = 5;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // pictureBox2
             // 
@@ -252,19 +265,27 @@ namespace CoffeeShop
             this.orderScreen1.Size = new System.Drawing.Size(830, 287);
             this.orderScreen1.TabIndex = 8;
             // 
-            // sidePanel
+            // deliveryScreen1
             // 
-            this.sidePanel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.sidePanel.Location = new System.Drawing.Point(1, 74);
-            this.sidePanel.Name = "sidePanel";
-            this.sidePanel.Size = new System.Drawing.Size(18, 62);
-            this.sidePanel.TabIndex = 9;
+            this.deliveryScreen1.Location = new System.Drawing.Point(214, 206);
+            this.deliveryScreen1.Name = "deliveryScreen1";
+            this.deliveryScreen1.Size = new System.Drawing.Size(830, 287);
+            this.deliveryScreen1.TabIndex = 9;
+            // 
+            // localizationScreen1
+            // 
+            this.localizationScreen1.Location = new System.Drawing.Point(214, 206);
+            this.localizationScreen1.Name = "localizationScreen1";
+            this.localizationScreen1.Size = new System.Drawing.Size(830, 287);
+            this.localizationScreen1.TabIndex = 10;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1044, 493);
+            this.Controls.Add(this.localizationScreen1);
+            this.Controls.Add(this.deliveryScreen1);
             this.Controls.Add(this.orderScreen1);
             this.Controls.Add(this.homeScreen1);
             this.Controls.Add(this.pictureBox2);
@@ -274,6 +295,7 @@ namespace CoffeeShop
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
@@ -306,6 +328,8 @@ namespace CoffeeShop
         private HomeScreen homeScreen1;
         private OrderScreen orderScreen1;
         private System.Windows.Forms.Panel sidePanel;
+        private DeliveryScreen deliveryScreen1;
+        private LocalizationScreen localizationScreen1;
     }
 }
 

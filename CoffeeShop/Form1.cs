@@ -42,5 +42,24 @@ namespace CoffeeShop
             sidePanel.Top = button2.Top;
             orderScreen1.BringToFront();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            sidePanel.Height = button3.Height;
+            sidePanel.Top = button3.Top;
+            deliveryScreen1.BringToFront();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            sidePanel.Height = button4.Height;
+            sidePanel.Top = button4.Top;
+            localizationScreen1.BringToFront();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
