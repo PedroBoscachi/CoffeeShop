@@ -19,5 +19,5 @@ D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.g
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.HomeScreen.resources
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.OrderScreen.resources
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.DeliveryScreen.resources
-D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.csproj.AssemblyReference.cache
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.LocalizationScreen.resources
+D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.CustomerScreen.resources

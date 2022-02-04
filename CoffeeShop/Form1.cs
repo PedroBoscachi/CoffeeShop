@@ -61,5 +61,12 @@ namespace CoffeeShop
         {
             Close();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            sidePanel.Height = button5.Height;
+            sidePanel.Top = button5.Top;
+            customerScreen1.BringToFront();
+        }
     }
 }

@@ -50,6 +50,7 @@ namespace CoffeeShop
             this.orderScreen1 = new CoffeeShop.OrderScreen();
             this.deliveryScreen1 = new CoffeeShop.DeliveryScreen();
             this.localizationScreen1 = new CoffeeShop.LocalizationScreen();
+            this.customerScreen1 = new CoffeeShop.CustomerScreen();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -92,6 +93,7 @@ namespace CoffeeShop
             this.button5.TabIndex = 7;
             this.button5.Text = "Customer";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -279,11 +281,19 @@ namespace CoffeeShop
             this.localizationScreen1.Size = new System.Drawing.Size(830, 287);
             this.localizationScreen1.TabIndex = 10;
             // 
+            // customerScreen1
+            // 
+            this.customerScreen1.Location = new System.Drawing.Point(214, 206);
+            this.customerScreen1.Name = "customerScreen1";
+            this.customerScreen1.Size = new System.Drawing.Size(830, 287);
+            this.customerScreen1.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1044, 493);
+            this.Controls.Add(this.customerScreen1);
             this.Controls.Add(this.localizationScreen1);
             this.Controls.Add(this.deliveryScreen1);
             this.Controls.Add(this.orderScreen1);
@@ -330,6 +340,7 @@ namespace CoffeeShop
         private System.Windows.Forms.Panel sidePanel;
         private DeliveryScreen deliveryScreen1;
         private LocalizationScreen localizationScreen1;
+        private CustomerScreen customerScreen1;
     }
 }
 
