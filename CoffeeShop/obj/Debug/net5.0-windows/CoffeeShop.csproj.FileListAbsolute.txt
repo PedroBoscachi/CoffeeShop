@@ -5,7 +5,6 @@ D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\bin\Debug\net5.0-windows\CoffeeShop.r
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\bin\Debug\net5.0-windows\CoffeeShop.dll
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\bin\Debug\net5.0-windows\ref\CoffeeShop.dll
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\bin\Debug\net5.0-windows\CoffeeShop.pdb
-D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.csproj.AssemblyReference.cache
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.Form1.resources
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.Properties.Resources.resources
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.csproj.GenerateResource.cache
@@ -17,3 +16,6 @@ D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.d
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\ref\CoffeeShop.dll
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.pdb
 D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.genruntimeconfig.cache
+D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.HomeScreen.resources
+D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.OrderScreen.resources
+D:\Pedro\PROJETOS C#\CoffeeShop\CoffeeShop\obj\Debug\net5.0-windows\CoffeeShop.csproj.AssemblyReference.cache

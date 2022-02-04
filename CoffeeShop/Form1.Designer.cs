@@ -44,14 +44,20 @@ namespace CoffeeShop
             this.label1 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.homeScreen1 = new CoffeeShop.HomeScreen();
+            this.orderScreen1 = new CoffeeShop.OrderScreen();
+            this.sidePanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.panel1.Controls.Add(this.sidePanel);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
@@ -121,6 +127,7 @@ namespace CoffeeShop
             this.button2.TabIndex = 4;
             this.button2.Text = "Order";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -223,11 +230,44 @@ namespace CoffeeShop
             this.button7.TabIndex = 5;
             this.button7.UseVisualStyleBackColor = true;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(214, 206);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(830, 287);
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // homeScreen1
+            // 
+            this.homeScreen1.Location = new System.Drawing.Point(214, 206);
+            this.homeScreen1.Name = "homeScreen1";
+            this.homeScreen1.Size = new System.Drawing.Size(830, 287);
+            this.homeScreen1.TabIndex = 7;
+            // 
+            // orderScreen1
+            // 
+            this.orderScreen1.Location = new System.Drawing.Point(214, 206);
+            this.orderScreen1.Name = "orderScreen1";
+            this.orderScreen1.Size = new System.Drawing.Size(830, 287);
+            this.orderScreen1.TabIndex = 8;
+            // 
+            // sidePanel
+            // 
+            this.sidePanel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.sidePanel.Location = new System.Drawing.Point(1, 74);
+            this.sidePanel.Name = "sidePanel";
+            this.sidePanel.Size = new System.Drawing.Size(18, 62);
+            this.sidePanel.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1044, 493);
+            this.Controls.Add(this.orderScreen1);
+            this.Controls.Add(this.homeScreen1);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label1);
@@ -240,6 +280,7 @@ namespace CoffeeShop
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,6 +302,10 @@ namespace CoffeeShop
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private HomeScreen homeScreen1;
+        private OrderScreen orderScreen1;
+        private System.Windows.Forms.Panel sidePanel;
     }
 }
 
